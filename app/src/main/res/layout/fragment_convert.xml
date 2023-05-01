@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConvertFragment">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Convertisseur"
+        android:fontFamily="@font/italiano"
+        android:textColor="@color/purple_700"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/money" />
+
+    <EditText
+        android:id="@+id/texteuro"
+        android:layout_width="270dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="350dp"
+        android:hint="Montant"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="#534E4E"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/buttonconv"
+        android:layout_marginTop="450dp"
+        android:layout_width="250dp"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lavender"
+        android:text="Convertir"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/textconv"
+        android:layout_width="136dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="550dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+</FrameLayout>

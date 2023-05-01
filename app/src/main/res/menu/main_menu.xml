@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:title="Accueil"
+            android:icon="@drawable/baseline_home_24"
+            android:id="@+id/home" />
+
+        <item
+            android:title="Convertisseur"
+            android:icon="@drawable/baseline_calculate_24"
+            android:id="@+id/convert" />
+
+        <item
+            android:title="Galerie"
+            android:icon="@drawable/baseline_image_24"
+            android:id="@+id/gallery" />
+
+
+    </group>
+</menu>
